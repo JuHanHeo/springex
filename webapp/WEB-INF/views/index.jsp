@@ -7,7 +7,7 @@
 <title>Insert title here</title>
 </head>
 <body>
-	<h1>나온다</h1>
+	<h1>나온다${name }</h1>
 	
 </body>
 </html>

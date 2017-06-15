@@ -33,7 +33,7 @@ public class HelloController {
 	public String hello3(Model model, @RequestParam("n") String name){
 		
 		model.addAttribute("name", name);
-		return "/WEB-INF/views/hello.jsp";
+		return "/WEB-INF/views/index.jsp";
 		
 //		String name = request.getParameter("name");
 //		try {
